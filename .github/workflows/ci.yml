@@ -1,0 +1,22 @@
+name: Ejecutar pruebas
+
+on: [push, pull_request]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Configurar Node.js y Yarn
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14.x'
+          cache: 'yarn'
+      - name: Instalar dependencias
+        run: yarn install
+      - name: Compilar TypeScript
+        run: yarn build
+      - name: Ejecutar pruebas
+        run: yarn test

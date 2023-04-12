@@ -1,0 +1,4 @@
+.ide/
+dist/
+coverage/
+node_modules/
