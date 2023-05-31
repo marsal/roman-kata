@@ -11,7 +11,7 @@ La kata debe enfocarse en escribir pruebas unitarias utilizando un marco de prue
 ### Requerimientos
 
 - Implementar una función en TypeScript que convierta números arábigos a números romanos.
-- Prueba básica: Verificar que el número arábigo 1 se convierta correctamente en "I".
+- Prueba básica: Verificar que el número arábigo 1,5,10 se convierta correctamente en "I","V","X".
 - Prueba de números especiales: Verificar que los números arábigos especiales, como 4, 9, 40, 90, 400, 900, se conviertan correctamente en los símbolos romanos correspondientes ("IV", "IX", "XL", "XC", "CD", "CM").
 - Prueba de números múltiples: Verificar que los números arábigos que requieren múltiples repeticiones de símbolos romanos, como 3, 6, 8, se conviertan correctamente ("III", "VI", "VIII").
 - Prueba de números compuestos: Verificar que los números arábigos compuestos, como 14, 39, 57, se conviertan correctamente en la combinación adecuada de símbolos romanos ("XIV", "XXXIX", "LVII").
